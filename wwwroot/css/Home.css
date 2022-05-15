@@ -1,0 +1,86 @@
+﻿#hcontslider {
+    font-size: 16px;
+    min-height: 40.62em;
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50)100%),url(https://i.ibb.co/qD3nwtY/thenorhman.jpg);
+    background-size: cover;
+    background-position:center center;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+#hslider{
+    margin:0 auto;
+    margin-bottom:6.25em;
+    margin-left:1em;
+}
+#hsboton{
+    background-color:rgba(0,0,0,0.5);
+    border:none;
+    border-radius:0.31em;
+    padding:0.93em 1.87em;
+    color:white;
+    margin-right:1.25em;
+    cursor:pointer;
+    transition:.3s ease all;
+    font-size:1.12em;
+}
+#hsboton:hover {
+   background:white;
+   color:black;
+}
+#htitulo {
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+}
+#hdescripcion{
+    font-weight:normal;
+    font-size:1em;
+    line-height:1.75em;
+    max-width:50%;
+    margin-bottom:1.25em;
+}
+#hcardsfather {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.cards{
+    width:300px;
+    height:430px;
+    border-radius:8px;
+    box-shadow:0 2px 2px rgba(0,0,0,0.2);
+    text-align:center;
+    margin:20px;
+    transition:all 0.25s;
+    border:solid 1px;
+}
+.cards img{
+    width:297px;
+    height:290px;
+    border-radius:8px;
+}
+.cards h4{
+    font-weight:600;
+}
+.cards p{
+    padding:0 1rem;
+    font-size:16px;
+    font-weight:300;
+}
+.card a {
+    font-weight: 500;
+    text-decoration:none;
+    color:#3498db;
+}
+.cards :hover{
+    transform:translateY(-15px);
+    box-shadow:0 12px 16px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 768px) {
+    #hcontslider {
+        display:none;
+    }
+}

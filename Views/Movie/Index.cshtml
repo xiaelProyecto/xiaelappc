@@ -1,0 +1,29 @@
+﻿@model List<MovieModel>
+<div class="container col-md-12">
+    <div class="row col-md-12">
+            <h1 id="mtitulo">Últimas Películas</h1>
+            <input id="mbusqueda" type="text" placeholder="Buscar película..." />
+            
+        </div>
+    </div>
+   
+    <div class="row col-md-12" id="mcardsfather">
+        @foreach (var m in Model)
+        {
+        <div class="mcards" style="background:url(@m.imageurl);background-size:cover;background-position:center center;">
+            @*<img src="@m.imageurl" alt="@m.titulo" loading="lazy" />*@
+           <div class="mcardcont">
+                <h4>@m.titulo</h4>
+                <p>@m.descripcion</p>
+                <input class="idm" hidden value="@m.id" />
+                <button class="mboton">Ver Ficha</button>
+           </div>
+        </div>
+        }
+
+    </div>
+</div>
+@section Scripts
+{
+    <script type="text/javascript" src="~/js/Movie.js"></script>
+}
