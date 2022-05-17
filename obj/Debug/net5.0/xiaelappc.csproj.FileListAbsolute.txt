@@ -43,3 +43,4 @@ E:\ProyectoFinal\xiaelappc\xiaelappc\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 E:\ProyectoFinal\xiaelappc\xiaelappc\obj\Debug\net5.0\Razor\Views\Movie\Index.cshtml.g.cs
 E:\ProyectoFinal\xiaelappc\xiaelappc\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
 E:\ProyectoFinal\xiaelappc\xiaelappc\obj\Debug\net5.0\Razor\Views\Anime\Index.cshtml.g.cs
+E:\ProyectoFinal\xiaelappc\xiaelappc\obj\Debug\net5.0\Razor\Views\Movie\FichaPelicula.cshtml.g.cs
