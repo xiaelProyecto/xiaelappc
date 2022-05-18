@@ -26,6 +26,7 @@ namespace xiaelappc.Controllers
             var response = await _db.GetStringAsync(Commons.Commons._URIMOVIES+"/"+id);
             if (response.Length < 0) return NotFound();
             var model = JsonConvert.DeserializeObject<MovieModel>(response);
+            
             return View(model);
         }
 

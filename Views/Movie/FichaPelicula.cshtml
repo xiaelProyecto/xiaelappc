@@ -1,13 +1,33 @@
 ﻿@model MovieModel
-
+    <div id="fsta" style="background: linear-gradient(rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50)100%),url(@Model.imageurl);background-size: cover;
+        background-position:center center;
+        font-size: 16px;
+        min-height: 40.62em;
+        color: white;
+        display:flex;
+        justify-content:center;
+        align-items:center;">
+        <div id="fstaa">
+            <div id="fstaaa">
+                <h1 id="fstitulo">@Model.titulo</h1>
+            </div>
+        </div>
+    </div>
 <div class="container">    
      <div class="row col-md-12">
          <div class="FichaPelicula">
-             <h1>@Model.titulo</h1>
-           
-             
-             <img src="@Model.imageurl" loading="lazy" />
+             <iframe width="1000"
+                     height="400"
+                     src="@Model.trailerurl"
+                     frameborder="0"
+                     allowfullscreen></iframe>
+             <h3>Trama</h3>
              <p>@Model.descripcion</p>
+             <h3>Reparto principal</h3>
+             @foreach (var actor in Model.reparto)
+             {
+               <p>@actor</p>
+             }
          </div>
      </div>
 </div>

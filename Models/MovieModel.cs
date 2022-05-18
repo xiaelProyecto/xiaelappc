@@ -13,7 +13,7 @@ namespace xiaelappc.Models
         public string trailerurl { get; set; }
         public DateTime lanzamiento { get; set; }
         public IEnumerable<Object> plataformas { get; set; }
-        public IEnumerable<Object> reparto { get; set; }
+        public IEnumerable<string> reparto { get; set; }
         public Int32 edadminima { get; set; }
         public string descripcion { get; set; }
     }
