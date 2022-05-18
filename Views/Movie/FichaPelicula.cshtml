@@ -10,27 +10,31 @@
         <div id="fstaa">
             <div id="fstaaa">
                 <h1 id="fstitulo">@Model.titulo</h1>
-                <p>@Model.lanzamiento</p>
-                <p>@Model.edadminima</p>
+                <p><b>Estrenada:</b> @Model.lanzamiento.Year</p>
+                <p><b>Edad minima:</b> @Model.edadminima</p>
             </div>
         </div>
     </div>
-<div class="container">    
-     <div class="col-md-12">
+<div id="fichapeliculafather">    
+     
          <div class="FichaPelicula">
-             <iframe width="1000"
-                     height="400"
-                     src="@Model.trailerurl"
-                     frameborder="0"
-                     allowfullscreen></iframe>
-             <h3>Trama</h3>
-             <p>@Model.descripcion</p>
-             <h3>Reparto principal</h3>
-             @foreach (var actor in Model.reparto)
-             {
-               <p>@actor</p>
-             }
-
+             <h2>FICHA</h2>
+             <div id="FichaIframe">
+                 <iframe
+                         src="@Model.trailerurl"
+                         frameborder="0"
+                         allowfullscreen
+                         style="border-radius:5px"></iframe>
+             </div>
+             <div id="FichaContenido">
+                 <h3>Trama</h3>
+                 <p>@Model.descripcion</p>
+                 <h3>Reparto principal</h3>
+                 @foreach (var actor in Model.reparto)
+                 {
+                     <p>@actor</p>
+                 }
+             </div>
          </div>
-     </div>
+     
 </div>

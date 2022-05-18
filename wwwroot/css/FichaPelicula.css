@@ -1,0 +1,144 @@
+﻿#fichapeliculafather{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+}
+.FichaPelicula {
+    border: 2px solid black;
+    width: 1200px;
+    height: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+}
+.FichaPelicula h2{
+   align-self:center;
+}
+#FichaIframe{
+    align-self:center;
+    margin-top:5px;
+}
+#FichaIframe iframe {
+        width :1000px; 
+        height:500px;
+
+}
+#FichaContenido{
+    margin-left:5px;
+}
+@media(max-width:1366px) {
+    #fichapeliculafather {
+        display: flex;
+    }
+
+    .FichaPelicula {
+        width: 1350px;
+        border: none;
+    }
+
+
+    #FichaIframe {
+        margin-top: 5px;
+    }
+
+        #FichaIframe iframe {
+            width: 1000px;
+            height: 400px;
+        }
+
+    #FichaContenido {
+        margin-left: 5px;
+    }
+}
+
+@media(max-width:1024px) {
+    #fichapeliculafather {
+        display: flex;
+    }
+
+    .FichaPelicula {
+        width: 1020px;
+        border: none;
+    }
+
+
+    #FichaIframe {
+        margin-top: 5px;
+    }
+
+        #FichaIframe iframe {
+            width: 900px;
+            height: 400px;
+        }
+
+    #FichaContenido {
+        margin-left: 5px;
+    }
+}
+@media(max-width:960px) {
+    #fichapeliculafather {
+        display: flex;
+    }
+
+    .FichaPelicula {
+        width: 750px;
+        border: none;
+    }
+
+
+    #FichaIframe {
+        margin-top: 5px;
+    }
+
+        #FichaIframe iframe {
+            width: 800px;
+            height: 400px;
+        }
+
+    #FichaContenido {
+        margin-left: 5px;
+    }
+}
+@media(max-width:800px) {
+    #fichapeliculafather {
+        display: flex;
+    }
+
+    .FichaPelicula {
+        width: 750px;
+        border: none;
+    }
+
+
+ #FichaIframe iframe {
+    display:none;
+ }
+
+    #FichaContenido {
+        margin-left: 5px;
+    }
+}
+@media(max-width:480px) {
+    #fichapeliculafather {
+        display: flex;
+    }
+
+    .FichaPelicula {
+        width: 460px;
+        border: none;
+    }
+
+
+#FichaIframe iframe {
+           display:none;
+}
+
+#FichaContenido {
+        margin-left: 5px;
+        width:450px;
+        overflow:scroll;
+}
+}
+
