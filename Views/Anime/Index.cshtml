@@ -1,3 +1,39 @@
-﻿<div>
-    <h1>Anime</h1>
-</div>
+﻿@{
+    ViewData["Title"] = "Anime";
+}
+
+
+    <div>
+        <h1>Anime</h1>
+    </div>
+
+
+    <div class="anime-recomendadas contenedor">
+        <div class="contenedor-titulo-controles">
+            <h3>Anime Recomendadas</h3>
+            <div class="indicadores">
+
+
+            </div>
+        </div>
+
+        <div class="contenedor-principal">
+            <button role="button" id="flecha-izquierda" class="flecha-izquierda">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+
+            <div class="contenedor-carousel">
+                <div class="carousel">
+                    <div class="anime">
+                        <a href="#"><img src="https://i.ibb.co/mFRFbxd/1917.jpg" alt="" /></a>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <button role="button" id="flecha-derecha" class="flecha-derecha">
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+        </div>
+    </div>
