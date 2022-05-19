@@ -1,18 +1,17 @@
 ﻿@model List<MovieModel>
-<div class="container col-md-12">
-    <div class="row col-md-12">
-        <h1 id="mtitulo">Últimas Películas</h1>
-        <input id="mbusqueda" type="text" placeholder="Buscar película..." />
+
+<h1 id="mtitulo">Últimas Películas</h1>
+<div class="BusquedaFather">
+    <input id="busquedaMovie" type="text" placeholder="Busqueda de pelicula..."/>
+</div>
 
 
-    </div>
-
+<div class="container col-md-12">    
     <div class="row col-md-12" id="mcardsfather">
         @foreach (var m in Model)
         {
             var id = m.id;
             <div class="mcards" style="background:url(@m.imageurl);background-size:cover;background-position:center center;">
-                @*<img src="@m.imageurl" alt="@m.titulo" loading="lazy" />*@
                 <div class="mcardcont">
                     <h4>@m.titulo</h4>
                     <p>@m.descripcion</p>

@@ -14,7 +14,7 @@ namespace xiaelappc.Controllers
         public async Task<IActionResult> Index()
         {
             var _db = new HttpClient();
-            var response = await _db.GetStringAsync(Commons.Commons._URIMOVIES);
+            var response = await _db.GetStringAsync(Commons.Commons._URIMOVIES_GETALLMOVIES);
             if (response.Length < 0) return NotFound();
             var model = JsonConvert.DeserializeObject<List<MovieModel>>(response);
             return View(model);
@@ -23,7 +23,7 @@ namespace xiaelappc.Controllers
         public async Task<ActionResult> FichaPelicula(string id)
         {
             var _db = new HttpClient();
-            var response = await _db.GetStringAsync(Commons.Commons._URIMOVIES+"/"+id);
+            var response = await _db.GetStringAsync(Commons.Commons._URIMOVIES_GETBYID+id);
             if (response.Length < 0) return NotFound();
             var model = JsonConvert.DeserializeObject<MovieModel>(response);
             

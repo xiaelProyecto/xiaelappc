@@ -3,18 +3,10 @@
     justify-content: center;
     align-content: center;
 }
-#mtitulo{
-    margin-left:40px;
-}
-#mbusqueda{
-    width:500px;
-    height:30px;
-    margin-left:600px;
-    margin-top:20px;
-}
+
 .mcardcont {
-    margin-top:300px;
-    color:white;
+    margin-top: 300px;
+    color: white;
 }
 .mcards {
     width: 400px;
