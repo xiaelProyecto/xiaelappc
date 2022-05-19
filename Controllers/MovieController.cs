@@ -30,6 +30,14 @@ namespace xiaelappc.Controllers
             return View(model);
         }
 
+        public async Task<ActionResult> PVFichaPelicula(string name)
+        {
+            var _db = new HttpClient();
+            var response = await _db.GetStringAsync(Commons.Commons._URIMOVIES_GETBYNAME + name);
+            if (response.Length < 0) return NotFound();
+            var model = JsonConvert.DeserializeObject<MovieModel>(response);
+            return PartialView("_FichaPeliculaModal",model);
+        }
 
     }
 }

@@ -90,3 +90,4 @@ D:\Proyecto Final\xiaelappc\obj\Debug\net5.0\xiaelappc.dll
 D:\Proyecto Final\xiaelappc\obj\Debug\net5.0\ref\xiaelappc.dll
 D:\Proyecto Final\xiaelappc\obj\Debug\net5.0\xiaelappc.pdb
 D:\Proyecto Final\xiaelappc\obj\Debug\net5.0\xiaelappc.genruntimeconfig.cache
+E:\ProyectoFinal\xiaelappc\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\_FichaPeliculaModal.cshtml.g.cs

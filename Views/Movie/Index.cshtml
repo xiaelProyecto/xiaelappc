@@ -6,7 +6,7 @@
 </div>
 
 
-<div class="container col-md-12">    
+<div class="container col-md-12" id="mContent">    
     <div class="row col-md-12" id="mcardsfather">
         @foreach (var m in Model)
         {
@@ -23,13 +23,18 @@
     </div>
 
 </div>
+<div class="container col-md-12" id="Msearch">
+    <div class="row col-md-12" id="SearchResult">
+    </div>
+</div>
 @section Scripts
 {
     <script>
+        
         const URI = window.location.href;
-        console.log(URI)
+
         $(document).ready(() => {
-           
+            $("#Msearch").hide();
         })
         function verFicha(id) {
             $.ajax({
@@ -43,8 +48,31 @@
                 }
             })
         }
-        
-        
+        $('#busquedaMovie').keypress(function (e) {
+            var value = $('#busquedaMovie').val();
+            var keycode = (e.keyCode ? e.keyCode : e.which);
+            if (keycode == '13') {
+                $.ajax({
+                    url: "/Movie/PVFichaPelicula",
+                    type: "GET",
+                    data: { name: value },
+                    success: (partialViewResult) => {
+                        $("#mContent").hide();
+                        $("#Msearch").show();
+                        $("#SearchResult").html(partialViewResult);
+                        let id = $("#PVMovieID").val();
+                        $("#modalMovieBtnClose").on('click', (e) => {
+                            location.reload();
+                        })
+                        $("#modalMovieBtnOpen").on('click', (e) => {
+                            verFicha(id)
+                        })
+                    }
+                });
+            }
+        });
+      
+       
 
     </script>
 }

@@ -3,7 +3,28 @@
     justify-content: center;
     align-content: center;
 }
+#mtitulo {
+    margin-left: 10px
+}
 
+.BusquedaFather input {
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #444;
+    border: 3px solid #a50559;
+    background: #fff;
+    width: 200px;
+    height: 50px;
+    transition: all .5s;
+    margin-left: 10px
+}
+.BusquedaFather input:hover{
+   width:300px;
+   background-color:#fff;
+   border-color:#8c10b3;
+   box-shadow:0 0 5px #6dcff680;
+}
 .mcardcont {
     margin-top: 300px;
     color: white;

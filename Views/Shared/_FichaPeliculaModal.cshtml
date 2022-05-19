@@ -1,0 +1,24 @@
+﻿@model MovieModel
+
+<div class="container col-md-12" id="mContent">
+    <div class="row col-md-12" id="mcardsfather">
+        <div class="mcards" style="background:url(@Model.imageurl);background-size:cover;background-position:center center;">
+            <div class="mcardcont">
+                <h4>@Model.titulo</h4>
+                <p>@Model.descripcion</p>
+
+            </div>
+            <input id="PVMovieID" value="@Model.id" hidden />
+            <div style="margin-top:5px">
+                <button id="modalMovieBtnClose" class="mboton">Cerrar</button>
+                <button id="modalMovieBtnOpen" class="mboton">Ver Ficha</button>
+            </div>
+        </div>
+      
+    </div>
+
+</div>
+    
+
+
+   
