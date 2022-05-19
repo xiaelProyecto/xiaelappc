@@ -17,5 +17,9 @@
     //setInterval(cambiarImagenes, tiempo)
 
 });
+$("#hsboton").on('click', (e) => {
+    const ID = "6272c98f960692748a582e9c";
+    window.location.replace(window.location.href + "Movie/FichaPelicula/" + ID);
+});
 
 
