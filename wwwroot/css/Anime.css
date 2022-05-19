@@ -1,23 +1,23 @@
 ﻿
 
-.contendor {
+.acontendor {
     width: 90%;
     margin:auto;
 }
 
 /* Contenedor Título y Controles*/
-.contenedor-titulo-controles {
+.acontenedor-titulo-controles {
     display:flex;
     justify-content:space-between;
     align-items: end;
 }
 
-.contenedor-titulo-controles h3{
+.acontenedor-titulo-controles h3{
     color: #fff;
     font-size: 30px;
 }
 
-.contenedor-titulo-controles .indicadores button{
+.acontenedor-titulo-controles .indicadores button{
     background: #fff;
     height: 3px;
     width: 10px;
@@ -26,25 +26,25 @@
     margin-right: 2px;
 }
 
-.contenedor-titulo-controles .indicadores button:hover,
-.contenedor-titulo-controles .indicadores button.activo{
+.acontenedor-titulo-controles .indicadores button:hover,
+.acontenedor-titulo-controles .indicadores button.activo{
     background:red;
 }
 
 
 /* Contenedor Principal y flechas*/
-.peliculas-recomendadas{
+.apeliculas-recomendadas{
     margin-bottom:70px;
 }
 
-.peliculas-recomendadas .contendor-principal{
+.apeliculas-recomendadas .contendor-principal{
     display:flex;
     align-items: center;
     position: relative;
 }
 
-.anime-recomendadas .contendor-principal .flecha-izquieda,
-.anime-recomendadas .contendor-principal .flecha-derecha{
+.anime-recomendadas .acontendor-principal .flecha-izquieda,
+.anime-recomendadas .acontendor-principal .flecha-derecha{
     position: absolute;
     border: none;
     background: rgba(0,0,0,0.3);
@@ -58,42 +58,42 @@
     z-index: 500;
     transition: .2s ease all;
 }
-.peliculas-recomendadas .contendor-principal .flecha-izquieda:hover,
-.peliculas-recomendadas .contendor-principal .flecha-derecha:hover {
+.peliculas-recomendadas .acontendor-principal .flecha-izquieda:hover,
+.peliculas-recomendadas .acontendor-principal .flecha-derecha:hover {
     background: rgba(0,0,0,.9);
 }
-    .peliculas-recomendadas .contendor-principal .flecha-izquieda{
+    .peliculas-recomendadas .acontendor-principal .flecha-izquieda{
     left:0;
 }
-.peliculas-recomendadas .contendor-principal .flecha-derecha {
+.peliculas-recomendadas .acontendor-principal .flecha-derecha {
     right: 0;
 }
 
 /* carousel*/
-.anime-recomendadas .contenedor-carousel{
+.anime-recomendadas .acontenedor-carousel{
     width: 100%;
     padding: 20px 0;
     overflow: hidden;
     scroll-behavior: smooth;
 }
 
-    .anime-recomendadas .contenedor-carousel .carousel {
+    .anime-recomendadas .acontenedor-carousel .carousel {
         display: flex;
         flex-wrap: nowrap;
     }
 
-    .anime-recomendadas .contenedor-carousel .carousel .anime {
+    .anime-recomendadas .acontenedor-carousel .carousel .anime {
         min-width: 20%;
         transition: .3s ease all;
         box-shadow: 5px 5px 10px rgba(0,0,0,.3);
     }
 
-        .anime-recomendadas .contenedor-carousel .carousel .anime.hover {
+        .anime-recomendadas .acontenedor-carousel .carousel .anime.hover {
             transform: scale(1.2);
             transform-origin: center;
         
         }
-        .anime-recomendadas .contenedor-carousel .carousel .anime img{
+        .anime-recomendadas .acontenedor-carousel .carousel .anime img{
             width: 100%;
             vertical-align: top;
      
