@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "uwW6ixdx9mm2Pj6Ptzln/ProtJR4Nm5xutgW7rkHtnvnkwRBFhWE6mSqnaja3sL56vlzx9vCQQ7spc+Mptifsg==",
+  "dgSpecHash": "Gv3Xx+LtJvEKasfRWkM/LVuMlh3V3zJFRt7AwyNyc+ASQUXauleEGiNxOAtgJEpUOzQd6KhliW5LH47Kcek5jg==",
   "success": true,
-  "projectFilePath": "E:\\ProyectoFinal\\xiaelappc\\xiaelappc\\xiaelappc.csproj",
+  "projectFilePath": "D:\\Proyecto Final\\xiaelappc\\xiaelappc.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\yhael\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
-    "C:\\Users\\yhael\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+    "C:\\Users\\paco4\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\paco4\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
   ],
   "logs": []
 }
