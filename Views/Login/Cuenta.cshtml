@@ -1,0 +1,65 @@
+﻿@model UserModel
+    <div id="CUAbuelo">
+        <div id="CUContendorPadre" class="container">
+            <div id="CUContenedorNavBar" class="row col-md-12">
+                <ul id="CUListFather">
+                    <li>
+                        <button class="CUNavBtn">General</button>
+                    </li>
+                    <li>
+                        <button class="CUNavBtn">Ajustes</button>
+                    </li>
+                    <li>
+                        <button class="CUNavBtn">Admin</button>
+                    </li>
+                </ul>
+            </div>
+            <div id="CUAvatar">
+                <img src="@Model.avatar" loading="lazy" width="200" height="200" />
+            </div>
+
+            <div id="CUUserContent">
+                <div id="CUInformacion">
+                    <h2>Información</h2>
+                    <label for="nickname">Usuario:</label>
+                    <input type="text" value="@Model.nickname" name="nickname" disabled/>
+                    <label for="age">Edad:</label>
+                    <input type="text" value="@Model.age" name="age" disabled/>
+                    <label for="mail">Mail:</label>
+                    <input type="text" value="@Model.mail" name="mail" disabled/>
+                    <label for="rol">Roles:</label>
+                    <input type="text" value="@Model.rol" name="rol" disabled/>
+                </div>
+            </div>
+            <div id="CUDescripcion">
+                <h2>Acerca de tí</h2>
+                @if (string.IsNullOrEmpty(Model.descripcion))
+                {
+                    <textarea placeholder="Acerca de tí..." cols="80" rows="8"></textarea>
+                }
+                else
+                {
+                    <textarea placeholder="Acerca de tí" cols="80" rows="8">@Model.descripcion</textarea>
+                }
+
+            </div>
+            <button id="guardarDescripcion">Guardar</button>
+            <div id="CUMfav">
+                <ul id="CUMFatherList">
+                    @foreach (var x in Model.favm)
+                    {
+                        <li>Película: @x</li>
+                    }
+                </ul>
+            </div>
+            <div id="CUAfav">
+                <ul id="CUAFatherList">
+                    @foreach (var x in Model.favn)
+                    {
+                        <li>Anime: @x</li>
+                    }
+                </ul>
+            </div>
+
+        </div>
+    </div>

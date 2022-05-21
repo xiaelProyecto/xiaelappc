@@ -4,7 +4,7 @@
     align-content: center;
 }
 #mtitulo {
-    margin-left: 10px
+    margin-left: 45px
 }
 
 .BusquedaFather input {
@@ -17,7 +17,7 @@
     width: 200px;
     height: 50px;
     transition: all .5s;
-    margin-left: 10px
+    margin-left: 45px
 }
 .BusquedaFather input:hover{
    width:300px;

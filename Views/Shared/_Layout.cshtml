@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@{ 
+    var token = ViewData["token"];
+}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -12,7 +15,8 @@
     <link rel="stylesheet" href="@Url.Content("~/css/Login.css")" type="text/css" />
     <link rel="stylesheet" href="@Url.Content("~/css/Anime.css")" type="text/css" />
     <link rel="stylesheet" href="@Url.Content("~/css/FichaPelicula.css")" type="text/css" />
-
+    <link rel="stylesheet" href="@Url.Content("~/css/Cuenta.css")" type="text/css" />
+    <link rel="stylesheet" href="@Url.Content("~/css/FichaAnime.css")" type="text/css" />
 
 </head>
 <body>
@@ -24,21 +28,42 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index"><i class="bi bi-house">Home</i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Movie" asp-action="Index"><i class="bi bi-film">Peliculas</i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Login" asp-action="Index"><i class="bi bi-people">Usuario</i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Anime" asp-action="Index"><i class="bi bi-app-indicator">Anime</i></a>
-                        </li>
-                    </ul>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between" >
+                  <input hidden value="@token" id="tokensupplier"/>
+                  <ul class="navbar-nav flex-grow-1">
+                      @if (token == null)
+                      {
+
+                          <li class="nav-item">
+                              <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index"><i class="bi bi-house">Home</i></a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-light" asp-area="" asp-controller="Movie" asp-action="Index"><i class="bi bi-film">Peliculas</i></a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-light" asp-area="" asp-controller="Anime" asp-action="Index"><i class="bi bi-app-indicator">Anime</i></a>
+                          </li>
+                          <li class="nav-item" id="cuenta">
+                              <a class="nav-link text-light" asp-area="" asp-controller="Login" asp-action="Index"><i class="bi bi-people">Login/Registro</i></a>
+                          </li>
+                      }
+                      else
+                      {
+
+                          <li class="nav-item">
+                              <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index"><i class="bi bi-house">Home</i></a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-light" asp-area="" asp-controller="Movie" asp-action="Index"><i class="bi bi-film">Peliculas</i></a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-light" asp-area="" asp-controller="Anime" asp-action="Index"><i class="bi bi-app-indicator">Anime</i></a>
+                          </li>
+                          <li class="nav-item" id="cuenta">
+                              <a class="nav-link text-light" asp-area="" asp-controller="Login" asp-action="Cuenta"><i class="bi bi-people">Cuenta</i></a>
+                          </li>
+                      }
+                  </ul>
                 </div>
             </div>
         </nav>

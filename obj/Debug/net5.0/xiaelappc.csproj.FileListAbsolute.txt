@@ -91,3 +91,6 @@ D:\Proyecto Final\xiaelappc\obj\Debug\net5.0\ref\xiaelappc.dll
 D:\Proyecto Final\xiaelappc\obj\Debug\net5.0\xiaelappc.pdb
 D:\Proyecto Final\xiaelappc\obj\Debug\net5.0\xiaelappc.genruntimeconfig.cache
 E:\ProyectoFinal\xiaelappc\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\_FichaPeliculaModal.cshtml.g.cs
+E:\ProyectoFinal\xiaelappc\xiaelappc\obj\Debug\net5.0\Razor\Views\Login\Cuenta.cshtml.g.cs
+E:\ProyectoFinal\xiaelappc\xiaelappc\obj\Debug\net5.0\Razor\Views\Anime\FichaAnime.cshtml.g.cs
+E:\ProyectoFinal\xiaelappc\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\_FichaAnimeModal.cshtml.g.cs

@@ -1,0 +1,151 @@
+﻿#fichaanimefather {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.FichaAnime {
+    border: 2px solid black;
+    width: 1200px;
+    height: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+    .FichaAnime h2 {
+        align-self: center;
+    }
+
+#FichaAnimeIframe {
+    align-self: center;
+    margin-top: 5px;
+}
+
+    #FichaAnimeIframe iframe {
+        width: 1000px;
+        height: 500px;
+    }
+
+#FichaAnimeContenido {
+    margin-left: 5px;
+}
+
+@media(max-width:1366px) {
+    #fichaanimefather {
+        display: flex;
+    }
+
+    .FichaAnime {
+        width: 1350px;
+        border: none;
+    }
+
+
+    #FichaAnimeIframe {
+        margin-top: 5px;
+    }
+
+        #FichaAnimeIframe iframe {
+            width: 1000px;
+            height: 400px;
+        }
+
+    #FichaAnimeContenido {
+        margin-left: 5px;
+    }
+}
+
+@media(max-width:1024px) {
+    #fichaanimefather {
+        display: flex;
+    }
+
+    .FichaAnime {
+        width: 1020px;
+        border: none;
+    }
+
+
+    #FichaAnimeIframe {
+        margin-top: 5px;
+    }
+
+        #FichaAnimeIframe iframe {
+            width: 900px;
+            height: 400px;
+        }
+
+    #FichaAnimeContenido {
+        margin-left: 5px;
+    }
+}
+
+@media(max-width:960px) {
+    #fichaanimefather {
+        display: flex;
+    }
+
+    .FichaAnime {
+        width: 750px;
+        border: none;
+    }
+
+
+    #FichaAnimeIframe {
+        margin-top: 5px;
+    }
+
+        #FichaAnimeIframe iframe {
+            width: 800px;
+            height: 400px;
+        }
+
+    #FichaAnimeContenido {
+        margin-left: 5px;
+    }
+}
+
+@media(max-width:800px) {
+    #fichaanimefather {
+        display: flex;
+    }
+
+    .FichaAnime {
+        width: 750px;
+        border: none;
+    }
+
+
+    #FichaAnimeIframe iframe {
+        display: none;
+    }
+
+    #FichaAnimeContenido {
+        margin-left: 5px;
+    }
+}
+
+@media(max-width:480px) {
+    #fichaanimefather {
+        display: flex;
+    }
+
+    .FichaAnime {
+        width: 460px;
+        border: none;
+    }
+
+
+    #FichaAnimeIframe iframe {
+        display: none;
+    }
+
+    #FichaAnimeContenido {
+        margin-left: 5px;
+        width: 450px;
+        overflow: scroll;
+    }
+}

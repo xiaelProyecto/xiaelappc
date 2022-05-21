@@ -1,39 +1,77 @@
-﻿@{
-    ViewData["Title"] = "Anime";
-}
+﻿@model List<AnimeModel>
+<h1 id="atitulo">Últimos Animes</h1>
+<div class="aBusquedaFather">
+    <input id="busquedaAnime" type="text" placeholder="Busqueda de Animes!" />
+</div>
 
 
-    <div>
-        <h1>Anime</h1>
-    </div>
-
-
-    <div class="anime-recomendadas">
-        <div class="acontenedor-titulo-controles">
-            <h3>Anime Recomendadas</h3>
-            <div class="indicadores">
-
-
-            </div>
-        </div>
-
-        <div class="acontenedor-principal">
-            <button role="button" id="flecha-izquierda" class="flecha-izquierda">
-                <i class="fa-solid fa-angle-left"></i>
-            </button>
-
-            <div class="acontenedor-carousel">
-                <div class="carousel">
-                    <div class="anime">
-                        <a href="#"><img src="https://i.ibb.co/mFRFbxd/1917.jpg" alt="" /></a>
-                    </div>
-
-
+<div class="container col-md-12" id="aContent">
+    <div class="row col-md-12" id="acardsfather">
+        @foreach (var m in Model)
+        {
+            var id = m.id;
+            <div class="acards" style="background:url(@m.imageurl);background-size:cover;background-position:center center;">
+                <div class="acardcont">
+                    <h4>@m.titulo</h4>
+                    <p>@m.descripcion</p>
+                    <a class="aboton btn-primary" onclick='verFicha("@id")'>Ver Ficha</a>
                 </div>
             </div>
+        }
 
-            <button role="button" id="flecha-derecha" class="flecha-derecha">
-                <i class="fa-solid fa-angle-right"></i>
-            </button>
-        </div>
     </div>
+
+</div>
+<div class="container col-md-12" id="asearch">
+    <div class="row col-md-12" id="aSearchResult">
+    </div>
+</div>
+@section Scripts
+{
+    <script>
+
+        const URI = window.location.href;
+
+        $(document).ready(() => {
+            $("#asearch").hide();
+        })
+        function verFicha(id) {
+            $.ajax({
+                url: "/Anime/FichaAnime",
+                type: "GET",
+                data: { id: id },
+                success: (view) => {
+                    var newUri = URI + "/FichaAnime/" + id;
+                    window.location.replace(newUri);
+
+                }
+            })
+        }
+        $('#busquedaAnime').keypress(function (e) {
+            var value = $('#busquedaAnime').val();
+            var keycode = (e.keyCode ? e.keyCode : e.which);
+            if (keycode == '13') {
+                $.ajax({
+                    url: "/Anime/PVFichaAnime",
+                    type: "GET",
+                    data: { name: value },
+                    success: (partialViewResult) => {
+                        $("#aContent").hide();
+                        $("#asearch").show();
+                        $("#aSearchResult").html(partialViewResult);
+                        let id = $("#PVAnimeID").val();
+                        $("#modalAnimeBtnClose").on('click', (e) => {
+                            location.reload();
+                        })
+                        $("#modalAnimeBtnOpen").on('click', (e) => {
+                            verFicha(id)
+                        })
+                    }
+                });
+            }
+        });
+
+
+
+    </script>
+}

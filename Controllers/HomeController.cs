@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using System;
@@ -14,7 +15,6 @@ namespace xiaelappc.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-         
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -22,10 +22,12 @@ namespace xiaelappc.Controllers
 
         public IActionResult Index()
         {
+            ViewData["token"] = HttpContext.Session.GetString("token");
             return View();
         }
         public IActionResult Privacy()
         {
+            ViewData["token"] = HttpContext.Session.GetString("token");
             return View();
         }
 

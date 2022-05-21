@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,7 @@ namespace xiaelappc.Controllers
     {
         public async Task<IActionResult> Index()
         {
+            ViewData["token"] = HttpContext.Session.GetString("token");
             var _db = new HttpClient();
             var response = await _db.GetStringAsync(Commons.Commons._URIMOVIES_GETALLMOVIES);
             if (response.Length < 0) return NotFound();
@@ -22,6 +24,7 @@ namespace xiaelappc.Controllers
 
         public async Task<ActionResult> FichaPelicula(string id)
         {
+            ViewData["token"] = HttpContext.Session.GetString("token");
             var _db = new HttpClient();
             var response = await _db.GetStringAsync(Commons.Commons._URIMOVIES_GETBYID+id);
             if (response.Length < 0) return NotFound();
@@ -32,6 +35,7 @@ namespace xiaelappc.Controllers
 
         public async Task<ActionResult> PVFichaPelicula(string name)
         {
+            ViewData["token"] = HttpContext.Session.GetString("token");
             var _db = new HttpClient();
             var response = await _db.GetStringAsync(Commons.Commons._URIMOVIES_GETBYNAME + name);
             if (response.Length < 0) return NotFound();
