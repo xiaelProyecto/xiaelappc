@@ -31,3 +31,23 @@ $("#formLoginAccess").on('submit', (e) => {
         }
     });
 })
+$("#formRegistroAccess").on('submit', (e) => {
+    e.preventDefault();
+    var user = $("#userRegistro").val();
+    var pass = $("#passwordRegistro").val();
+    var mail = $("#mailRegistro").val();
+    $.ajax({
+        url: "/Registro/Registro",
+        type: "POST",
+        data: {
+            username: user,
+            password: pass,
+            mail:mail
+        }, success: (e) => {
+            alert("Registro completado con exito")
+            location.reload();
+        }, error: (e) => {
+            alert("Nombre de usuario existente");
+        }
+    });
+})

@@ -114,5 +114,11 @@ namespace xiaelappc.Controllers
             HttpContext.Session.SetString("id", model.id);
             return Ok();
         }
+        public IActionResult LogOff()
+        {
+            HttpContext.Session.Remove("token");
+            HttpContext.Session.Remove("id");
+            return Ok();
+        }
     }
 }

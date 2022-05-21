@@ -23,6 +23,7 @@ namespace xiaelappc.Commons
         public const string _URIUSERS_UPDATEPASS = "https://localhost:44327/api/User/UpdateUserPass/";
         public const string _URIUSERS_UPDATEFAVM = "https://localhost:44327/api/User/UpdateUserFavm/";
         public const string _URIUSERS_UPDATEFAVA = "https://localhost:44327/api/User/UpdateUserFava/";
+        public const string _URIUSERS_CREATEUSER = "https://localhost:44327/api/User/createUser/";
 
         //LOGINACCESS
         public const string _URILOGIN_LOGIN = "https://localhost:44327/api/LoginAcces/Login";

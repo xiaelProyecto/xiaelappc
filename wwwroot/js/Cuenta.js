@@ -40,6 +40,13 @@ $("#CUAJUser").on('click', (e) => {
         data: { nick: value },
         success: (e) => {
             alert("Se ha cambiado el nombre de usuario correctamente");
+            $.ajax({
+                url: "/Login/LogOff",
+                success: (e) => {
+                    alert("Se ha cambiado un elemento clave se ha procedido a cerrar la sesión")
+                    window.location = "/Home/Index"
+                }
+            });            
         }
     });
 })
@@ -52,6 +59,13 @@ $("#CUAJPass").on('click', (e) => {
         data: { password: value },
         success: (e) => {
             alert("Se ha cambiado la contraseña del usuario correctamente");
+            $.ajax({
+                url: "/Login/LogOff",
+                success: (e) => {
+                    alert("Se ha cambiado un elemento clave se ha procedido a cerrar la sesión")
+                    window.location = "/Home/Index"
+                }
+            });
         }
     });
 })
@@ -78,11 +92,3 @@ $("#CUAJMail").on('click', (e) => {
     });
 })
 
-
-//CUAfav
-//CUMfav
-//CUDescripcion
-//CUUserContent
-
-
-//CUAjustes
