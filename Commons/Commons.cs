@@ -17,6 +17,13 @@ namespace xiaelappc.Commons
         public const string _URIUSERS_GETALLUSERS = "https://localhost:44327/api/User/Get";
         public const string _URIUSERS_GETBYID = "https://localhost:44327/api/User/GetById/";
         public const string _URIUSERS_UPDATEDESCRIPTION = "https://localhost:44327/api/User/UpdateUserDesc/";
+        public const string _URIUSERS_UPDATEAGE = "https://localhost:44327/api/User/UpdateUserAge/";
+        public const string _URIUSERS_UPDATENICK = "https://localhost:44327/api/User/UpdateUserNick/";
+        public const string _URIUSERS_UPDATEMAIL = "https://localhost:44327/api/User/UpdateUserMail/";
+        public const string _URIUSERS_UPDATEPASS = "https://localhost:44327/api/User/UpdateUserPass/";
+        public const string _URIUSERS_UPDATEFAVM = "https://localhost:44327/api/User/UpdateUserFavm/";
+        public const string _URIUSERS_UPDATEFAVA = "https://localhost:44327/api/User/UpdateUserFava/";
+
         //LOGINACCESS
         public const string _URILOGIN_LOGIN = "https://localhost:44327/api/LoginAcces/Login";
         //ANIME
