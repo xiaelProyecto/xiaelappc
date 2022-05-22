@@ -23,8 +23,8 @@
                 <td>@u.nickname</td>
                 <td>@u.mail</td>
                 <td>@u.rol</td>
-                <td><button class="AdminControlBtn"><i class="bi bi-person-check"></i></button></td>
-                <td><button class="AdminControlBtnDelete"><i class="bi bi-person-x"></i></button></td>
+                <td><button class="AdminControlBtn" onclick="FichaUsuario('@u.id')"><i class="bi bi-person-check"></i></button></td>
+                <td><button class="AdminControlBtnDelete" onclick="deleteUser('@u.id');"><i class="bi bi-person-x"></i></button></td>
             </tr>
             }
         </tbody>

@@ -1,0 +1,67 @@
+﻿@model UserModel
+<input hidden value="@Model.id" id="FUId"/>
+<div class="FIUAbuelo">
+    <div class="FIUPadre">
+        <h2>Información del usuario: @Model.nickname</h2>
+        <table id="AdminTable">
+            <tbody>
+
+                <tr>
+                    <td>Nombre del usuario</td>
+                    <td><input type="text" value="@Model.nickname" required class="FUIUser"/></td>
+                    <td><button class="FIUBtnSwap FUBNick"><i class="bi bi-gear"></i></button></td>
+                </tr>
+
+                <tr>
+                    <td>Contraseña usuario</td>
+                    <td><input type="password" value="" required class="FUIPass"/></td>
+                    <td><button class="FIUBtnSwap FUBpass"><i class="bi bi-gear"></i></button></td>
+                </tr>
+                <tr>
+                    <td>Edad del usuario</td>
+                    <td><input type="number" value="@Model.age" required class="FUIAge"/></td>
+                    <td><button class="FIUBtnSwap FUBAge"><i class="bi bi-gear"></i></button></td>
+                </tr>
+                <tr>
+                    <td>Mail del usuario</td>
+                    <td><input type="email" value="@Model.mail" required class="FUIMail"/></td>
+                    <td><button class="FIUBtnSwap FUBMail"><i class="bi bi-gear"></i></button></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="FUAuxRespinsive">
+    <h4>Información del usuario: @Model.nickname</h4>
+    <table>
+        <tbody>
+            <tr>
+                <td>Nombre del usuario</td>
+                <td><input type="text" value="@Model.nickname" required class="FUIUser" /></td>
+                <td><button class="FIUBtnSwap FUBNick"><i class="bi bi-gear"></i></button></td>
+            </tr>
+
+            <tr>
+                <td>Contraseña usuario</td>
+                <td><input type="password" value="" required class="FUIPass" /></td>
+                <td><button class="FIUBtnSwap FUBpass"><i class="bi bi-gear"></i></button></td>
+            </tr>
+            <tr>
+                <td>Edad del usuario</td>
+                <td><input type="number" value="@Model.age" required class="FUIAge" /></td>
+                <td><button class="FIUBtnSwap FUBAge"><i class="bi bi-gear"></i></button></td>
+            </tr>
+            <tr>
+                <td>Mail del usuario</td>
+                <td><input type="email" value="@Model.mail" required class="FUIMail" /></td>
+                <td><button class="FIUBtnSwap FUBMail"><i class="bi bi-gear"></i></button></td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+@section Scripts
+{
+    <script type="text/javascript" src="~/js/FichaUsuario.js"></script>
+}

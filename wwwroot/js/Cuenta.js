@@ -1,4 +1,5 @@
-﻿$(document).ready((e) => {
+﻿
+$(document).ready((e) => {
     $(".inputSaveDesc").hide();
     $("#CUAjustes").hide();
     $("#CUAadmin").hide();
@@ -117,3 +118,27 @@ $("#CUBtnNavAdmin").on('click', (e) => {
         },
     });
 });
+
+function deleteUser(id) {
+    $.ajax({
+        url: "/Admin/deleteUser",
+        data: { id: id },
+        success: (e) => {
+            alert("Se ha eliminado al usuario correctamente");
+            location.reload();
+        }, error: (e) => {
+            alert("Usuario no encontrado");
+        }
+    });
+}
+function FichaUsuario(id) {
+    $.ajax({
+        url: "/Admin/FichaUsuario",
+        data: { id: id },
+        success: (e) => {
+           window.location = "/Admin/FichaUsuario/"+id
+        }, error: (e) => {
+            alert("Usuario no encontrado");
+        }
+    });
+}

@@ -24,6 +24,7 @@ namespace xiaelappc.Commons
         public const string _URIUSERS_UPDATEFAVM = "https://localhost:44327/api/User/UpdateUserFavm/";
         public const string _URIUSERS_UPDATEFAVA = "https://localhost:44327/api/User/UpdateUserFava/";
         public const string _URIUSERS_CREATEUSER = "https://localhost:44327/api/User/createUser/";
+        public const string _URIUSERS_DELETE = "https://localhost:44327/api/User/Delete/";
 
         //LOGINACCESS
         public const string _URILOGIN_LOGIN = "https://localhost:44327/api/LoginAcces/Login";
@@ -32,5 +33,6 @@ namespace xiaelappc.Commons
         public const string _URIANIME_GETANIMEBYID = "https://localhost:44327/api/Anime/GetAnimeById/";
         public const string _URIANIME_GETBYNAME = "https://localhost:44327/api/Anime/SearchService/";
 
+        
     }
 }

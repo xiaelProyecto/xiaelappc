@@ -1,19 +1,36 @@
 ﻿@model UserModel
 <div id="CUAbuelo">
     <div id="CUContendorPadre" class="container">
-        <div id="CUContenedorNavBar" class="row col-md-12">
-            <ul id="CUListFather">
-                <li>
-                    <button class="CUNavBtn" id="CUBtnNavGeneral">General</button>
-                </li>
-                <li>
-                    <button class="CUNavBtn" id="CUBtnNavAjustes">Ajustes</button>
-                </li>
-                <li>
-                    <button class="CUNavBtn" id="CUBtnNavAdmin">Admin</button>
-                </li>
-            </ul>
-        </div>
+        @if (Model.rol == "admin")
+        {
+            <div id="CUContenedorNavBar" class="row col-md-12">
+                <ul id="CUListFather">
+                    <li>
+                        <button class="CUNavBtn" id="CUBtnNavGeneral">General</button>
+                    </li>
+                    <li>
+                        <button class="CUNavBtn" id="CUBtnNavAjustes">Ajustes</button>
+                    </li>
+                    <li>
+                        <button class="CUNavBtn" id="CUBtnNavAdmin">Admin</button>
+                    </li>
+                </ul>
+            </div>
+        }
+        else
+        {
+            <div id="CUContenedorNavBar" class="row col-md-12">
+                <ul id="CUListFather">
+                    <li>
+                        <button class="CUNavBtn" id="CUBtnNavGeneral">General</button>
+                    </li>
+                    <li>
+                        <button class="CUNavBtn" id="CUBtnNavAjustes">Ajustes</button>
+                    </li>
+                </ul>
+            </div>
+        }
+
         <div id="CUAvatar">
             <img src="@Model.avatar" loading="lazy" width="200" height="200" />
         </div>
