@@ -46,51 +46,51 @@
         <button id="guardarDescripcion">Guardar</button>
         <input value="Se ha guardado con exito la descripción" disabled class="inputSaveDesc" />
         <div id="CUMfav">
-            <ul id="CUMFatherList">
-                @foreach (var x in Model.favm)
-                {
-                    <li>Película: @x</li>
-                }
-            </ul>
+            <h2>Películas Favoritas</h2>
+            @foreach (var x in Model.favm)
+            {
+                <input type="text" value="@x" disabled />
+            }
+
         </div>
         <div id="CUAfav">
-            <ul id="CUAFatherList">
-                @foreach (var x in Model.favn)
-                {
-                    <li>Anime: @x</li>
-                }
-            </ul>
+            <h2>Animes Favoritos</h2>
+            @foreach (var x in Model.favn)
+            {
+                <input type="text" value="@x" disabled />
+            }
         </div>
-       
+
         <div id="CUAjustes">
             <h2>Ajustes De Cuenta</h2>
             <div>
                 <label for="fnickname">Usuario:</label>
-                <input type="text" value="@Model.nickname" name="fnickname" id="CUInputAjName" required/>
+                <input type="text" value="@Model.nickname" name="fnickname" id="CUInputAjName" required />
                 <button class="CUBtnAjustes" id="CUAJUser"><i class="bi bi-box2-heart"></i></button>
             </div>
 
             <div>
                 <label for="fpass">Password:</label>
-                <input type="password" value="" name="fpass" id="CUInputAjPass" required/>
+                <input type="password" value="" name="fpass" id="CUInputAjPass" required />
                 <button class="CUBtnAjustes" id="CUAJPass"><i class="bi bi-box2-heart"></i></button>
             </div>
 
             <div>
                 <label for="fage">Edad:</label>
-                <input type="number" value="@Model.age" name="fage" id="CUInputAjAge" required/>
+                <input type="number" value="@Model.age" name="fage" id="CUInputAjAge" required />
                 <button class="CUBtnAjustes" id="CUAAge"><i class="bi bi-box2-heart"></i></button>
             </div>
 
             <div>
                 <label for="fmail">Mail:</label>
-                <input type="email" value="@Model.mail" name="fmail" id="CUInputAjMail" required/>
+                <input type="email" value="@Model.mail" name="fmail" id="CUInputAjMail" required />
                 <button class="CUBtnAjustes" id="CUAJMail"><i class="bi bi-box2-heart"></i></button>
             </div>
         </div>
+        <div id="CUAadmin"></div>
     </div>
     
-    <div id="CUAadmin"></div>
+    
 </div>
 @section Scripts
 {

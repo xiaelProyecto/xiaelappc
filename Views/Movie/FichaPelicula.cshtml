@@ -1,5 +1,6 @@
 ﻿@model MovieModel
-    <div id="fsta" style="background: linear-gradient(rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50)100%),url(@Model.imageurl);background-size: cover;
+
+<div id="fsta" style="background: linear-gradient(rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.50)100%),url(@Model.imageurl);background-size: cover;
         background-position:center center;
         font-size: 16px;
         min-height: 40.62em;
@@ -7,34 +8,69 @@
         display:flex;
         justify-content:center;
         align-items:center;">
-        <div id="fstaa">
-            <div id="fstaaa">
-                <h1 id="fstitulo">@Model.titulo</h1>
-                <p><b>Estrenada:</b> @Model.lanzamiento.Year</p>
-                <p><b>Edad minima:</b> @Model.edadminima</p>
-            </div>
+    <div id="fstaa">
+        <div id="fstaaa">
+            <h1 id="fstitulo">@Model.titulo</h1>
+            <p><b>Estrenada:</b> @Model.lanzamiento.Year</p>
+            <p><b>Edad minima:</b> @Model.edadminima</p>
+            <p><img width="40" height="40" src="https://i.ibb.co/Wxr4XhV/trophy.png" alt="trofeo" style="border-radius:5px" />: @Model.score</p>
+            <p><b>Favoritos:</b> <button class="btnLike"><i class="bi bi-arrow-through-heart"></i></button></p>
         </div>
     </div>
-<div id="fichapeliculafather">    
-     
-         <div class="FichaPelicula">
-             <h2>FICHA</h2>
-             <div id="FichaIframe">
-                 <iframe
-                         src="@Model.trailerurl"
-                         frameborder="0"
-                         allowfullscreen
-                         style="border-radius:5px"></iframe>
-             </div>
-             <div id="FichaContenido">
-                 <h3>Trama</h3>
-                 <p>@Model.descripcion</p>
-                 <h3>Reparto principal</h3>
-                 @foreach (var actor in Model.reparto)
-                 {
-                     <p>@actor</p>
-                 }
-             </div>
-         </div>
-     
+
 </div>
+<div id="fichapeliculafather">
+
+    <div class="FichaPelicula">
+        <h2>FICHA</h2>
+        <div id="FichaIframe">
+            <iframe src="@Model.trailerurl"
+                    frameborder="0"
+                    allowfullscreen
+                    style="border-radius:5px"></iframe>
+        </div>
+        <div id="FichaContenido">
+            <h3>Trama</h3>
+            <p>@Model.descripcion</p>
+            <h3>Plataformas</h3>
+            @foreach (var p in Model.plataformas)
+            {
+                <p>@p</p>
+            }
+            <h3>Reparto principal</h3>
+            @foreach (var actor in Model.reparto)
+            {
+                <p>@actor</p>
+            }
+        </div>
+    </div>
+    <input hidden value='@ViewData["token"]' id="FPPTokenValue" />
+    <input hidden value='@Model.id' id="FPPidMovieValue" />
+</div>
+@section Scripts
+{
+    <script>
+        var tkn = $("#FPPTokenValue").val();
+        var m = $("#FPPidMovieValue").val();
+        
+        $(".btnLike").on('click', (e) => {
+            if (!tkn == null || !tkn == "") {
+                $.ajax({
+                    url: "/Login/updateFavm",
+                    type: "PUT",
+                    data: {
+                        movie: m
+                    },
+                    success: (e) => {
+                        alert("Película guardada en favoritos")
+                    }
+                });
+            } else {
+                alert("Debe tener iniciado una sesión")
+            }
+        })
+        
+
+
+    </script>
+}

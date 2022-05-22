@@ -85,7 +85,7 @@ namespace xiaelappc.Controllers
             ViewData["token"] = HttpContext.Session.GetString("token");
             var userid = HttpContext.Session.GetString("id");
             var _db = new HttpClient();
-            var newUri = Commons.Commons._URIUSERS_UPDATEAGE + userid + "/" + movie;
+            var newUri = Commons.Commons._URIUSERS_UPDATEFAVM + userid + "/" + movie;
             var response = await _db.PutAsync(newUri, null);
             if (!response.IsSuccessStatusCode) return NotFound(response);
             return Ok();
@@ -95,7 +95,7 @@ namespace xiaelappc.Controllers
             ViewData["token"] = HttpContext.Session.GetString("token");
             var userid = HttpContext.Session.GetString("id");
             var _db = new HttpClient();
-            var newUri = Commons.Commons._URIUSERS_UPDATEAGE + userid + "/" + anime;
+            var newUri = Commons.Commons._URIUSERS_UPDATEFAVA + userid + "/" + anime;
             var response = await _db.PutAsync(newUri, null);
             if (!response.IsSuccessStatusCode) return NotFound(response);
             return Ok();

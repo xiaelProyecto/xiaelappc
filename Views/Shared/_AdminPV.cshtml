@@ -1,0 +1,32 @@
+﻿@model List<UserModel>
+<div id="AdminTableContainer">
+    <table id="AdminTable">
+        <thead>
+            <tr>
+                <th></th>
+                <th>ID</th>
+                <th>Usuario</th>
+                <th>Email</th>
+                <th>Rol</th>
+                <th>Información</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var u in Model)
+            {
+            <tr>
+                <td>
+                    <img height="50" width="50" src="@u.avatar" />
+                </td>
+                <td>@u.id</td>
+                <td>@u.nickname</td>
+                <td>@u.mail</td>
+                <td>@u.rol</td>
+                <td><button class="AdminControlBtn"><i class="bi bi-person-check"></i></button></td>
+                <td><button class="AdminControlBtnDelete"><i class="bi bi-person-x"></i></button></td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>

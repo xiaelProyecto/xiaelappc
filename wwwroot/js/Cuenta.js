@@ -1,6 +1,8 @@
 ﻿$(document).ready((e) => {
     $(".inputSaveDesc").hide();
     $("#CUAjustes").hide();
+    $("#CUAadmin").hide();
+    $("#CUAvatar").show();
 });
 $("#guardarDescripcion").on('click', (e) => {
     var desc = $(".CUTextArea").val();
@@ -17,17 +19,23 @@ $("#guardarDescripcion").on('click', (e) => {
 $("#CUBtnNavGeneral").on('click', (e) => {
     $("#CUAfav").show();
     $("#CUMfav").show();
+    $("#CUAvatar").show();
     $("#CUDescripcion").show();
     $("#CUUserContent").show();
     $("#guardarDescripcion").show();
+    $(".inputSaveDesc").hide();
+    $("#CUAadmin").hide();
     $("#CUAjustes").hide();
 });
 
 $("#CUBtnNavAjustes").on('click', (e) => {
     $("#CUAfav").hide();
     $("#CUMfav").hide();
+    $("#CUAvatar").show();
     $("#CUDescripcion").hide();
     $("#CUUserContent").hide();
+    $(".inputSaveDesc").hide();
+    $("#CUAadmin").hide();
     $("#guardarDescripcion").hide();
     $("#CUAjustes").show();
 });
@@ -91,4 +99,21 @@ $("#CUAJMail").on('click', (e) => {
         }
     });
 })
-
+$("#CUBtnNavAdmin").on('click', (e) => {
+    $("#CUAfav").hide();
+    $("#CUMfav").hide();
+    $("#CUDescripcion").hide();
+    $("#CUUserContent").hide();
+    $("#CUAvatar").hide();
+    $(".inputSaveDesc").hide();
+    $("#guardarDescripcion").hide();
+    $("#CUAjustes").hide();
+    $.ajax({
+        url: "/Admin/AdminPanel",
+        type: "GET",
+        success: (partialViewResult) => {
+            $("#CUAadmin").show();
+            $("#CUAadmin").html(partialViewResult);
+        },
+    });
+});

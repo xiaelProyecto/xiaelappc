@@ -94,3 +94,4 @@ E:\ProyectoFinal\xiaelappc\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\_FichaP
 E:\ProyectoFinal\xiaelappc\xiaelappc\obj\Debug\net5.0\Razor\Views\Login\Cuenta.cshtml.g.cs
 E:\ProyectoFinal\xiaelappc\xiaelappc\obj\Debug\net5.0\Razor\Views\Anime\FichaAnime.cshtml.g.cs
 E:\ProyectoFinal\xiaelappc\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\_FichaAnimeModal.cshtml.g.cs
+E:\ProyectoFinal\xiaelappc\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\_AdminPV.cshtml.g.cs

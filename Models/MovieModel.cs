@@ -16,5 +16,6 @@ namespace xiaelappc.Models
         public IEnumerable<string> reparto { get; set; }
         public Int32 edadminima { get; set; }
         public string descripcion { get; set; }
+        public Int32 score { get; set; }
     }
 }
