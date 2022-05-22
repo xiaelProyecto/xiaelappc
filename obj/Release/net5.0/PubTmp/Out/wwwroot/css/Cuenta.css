@@ -1,0 +1,291 @@
+﻿#CUContendorPadre {
+    border: solid 2px #1d2c3d;
+    width: 1360px;
+    height: auto;
+    padding:0;
+    display:flex;
+    
+    align-items:center;
+    flex-direction:column;
+}
+#CUMfav {
+    display:flex;
+    flex-direction:column;
+}
+#CUMfav input{
+    width:573px;
+    height:30px;
+    border-radius:5px;
+    margin-top:8px;
+    text-align:center;
+}
+#CUAfav{
+    display:flex;
+    flex-direction:column;
+}
+#CUAfav input{
+    width:573px;
+    height:30px;
+    border-radius:5px;
+    margin-top:8px;
+    text-align:center;
+    margin-bottom:6px;
+}
+#AdminTable {
+    background: #1d2c3d;
+    border-radius: 10px;
+    color: white;
+    border-collapse: separate;
+    border-spacing: 20px 25px;
+    text-align:center;
+    margin-bottom:10px;
+}
+#AdminTable thead th{
+    width:100%;
+    margin-left:20px;
+}
+#CUInformacion{
+    display:flex;
+    flex-direction:column;
+}
+#CUInformacion input{
+    width:573px;
+    height:30px;
+    border-radius:5px;
+    text-align:center;
+}
+#CUInformacion label{
+   font-size:16px;
+   font-weight:400;
+}
+#CUAbuelo {
+    display: flex;
+    align-items: center;
+}
+#CUListFather {
+    display:flex;
+   list-style:none;
+   margin-top:5px;
+}
+#CUContenedorNavBar {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+#CUListFather li {
+    margin-left: 5px;
+}
+.CUNavBtn {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: #3a86ff
+}
+    .CUNavBtn:hover {
+        border-radius: 5px;
+        padding-right: 24px;
+        padding-left: 8px;
+        background-color: #1d2c3d;
+    }
+
+.CUNavBtn:hover:after {
+        opacity: 1;
+        right: 10px;
+}
+.CUNavBtn:after {
+        content: "\00BB";
+        position: absolute;
+        opacity: 0;
+        font-size: 20px;
+        line-height: 40px;
+        top: 0;
+        right: -20px;
+        transition: 0.4s;
+}
+#guardarDescripcion {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #57cc99;
+    color: #57cc99;
+}
+
+    #guardarDescripcion:hover {
+        color: #fff;
+    }
+
+        #guardarDescripcion:hover:after {
+            width: 100%;
+        }
+
+    #guardarDescripcion:after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        transition: all 0.3s ease;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 100%;
+        background: #57cc99;
+    }
+#CUAvatar img {
+    box-shadow: 0px 15px 10px -15px #111;
+    border-radius:5px;
+}
+.inputSaveDesc {
+    background-color: green;
+    border: 1px solid dotted;
+    border-radius: 3px;
+    width: 573px;
+    height: 30px;
+    margin-top:5px;
+    color:black;
+}
+#CUAjustes{
+    display: flex;
+    flex-direction: column;
+}
+#CUAjustes input {
+    width:573px;
+    height:30px;
+    border-radius:5px;
+    text-align:center;
+    margin-top:15px;
+    margin-bottom:8px;
+}
+#CUAjustes label {
+    font-size: 16px;
+    font-weight: 400;
+}
+.CUBtnAjustes {
+    text-align:center;
+    min-width: 50px;
+    height: 35px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #1d2c3d;
+    color: #1d2c3d;
+}
+
+.CUBtnAjustes:hover {
+   color: #fff;
+   background-color: #1d2c3d;
+}
+
+.CUBtnAjustes:hover:after {
+    height: 100%;
+}
+
+.CUBtnAjustes:after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        transition: all 0.3s ease;
+        left: 0;
+        top: 0;
+        height: 0;
+        width: 100%;
+        background-color: #1d2c3d;
+}
+ .AdminControlBtnDelete {
+  min-width: 50px;
+  height: 50px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 15px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #d90429;
+  color: #d90429;
+}
+.AdminControlBtnDelete:hover {
+  color: #fff;
+}
+.AdminControlBtnDelete:hover:after {
+  height: 100%;
+}
+.AdminControlBtnDelete:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  background: #d90429;
+}
+.AdminControlBtn {
+  min-width: 50px;
+  height: 50px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 15px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #57cc99;
+  color: #57cc99;
+}
+.AdminControlBtn:hover {
+  color: #fff;
+}
+.AdminControlBtn:hover:after {
+  height: 100%;
+}
+.AdminControlBtn:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  background: #57cc99;
+}
