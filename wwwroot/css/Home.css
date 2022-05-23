@@ -79,8 +79,23 @@
     box-shadow:0 12px 16px rgba(0,0,0,0.2);
 }
 
-@media (max-width: 768px) {
-    #hcontslider {
-        display:none;
+/*responsive*/
+
+
+@media(max-width:1024px) {
+    #hcontslider{
+        display: none;
     }
+}
+
+@media(max-width:960px) {
+   
+}
+
+@media(max-width:800px) {
+   
+}
+
+@media(max-width:480px) {
+   
 }

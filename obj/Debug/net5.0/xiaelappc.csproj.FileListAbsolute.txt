@@ -96,3 +96,9 @@ E:\ProyectoFinal\xiaelappc\xiaelappc\obj\Debug\net5.0\Razor\Views\Anime\FichaAni
 E:\ProyectoFinal\xiaelappc\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\_FichaAnimeModal.cshtml.g.cs
 E:\ProyectoFinal\xiaelappc\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\_AdminPV.cshtml.g.cs
 E:\ProyectoFinal\xiaelappc\xiaelappc\obj\Debug\net5.0\Razor\Views\Admin\FichaUsuario.cshtml.g.cs
+D:\Proyecto Final\xiaelappc\obj\Debug\net5.0\Razor\Views\Admin\FichaUsuario.cshtml.g.cs
+D:\Proyecto Final\xiaelappc\obj\Debug\net5.0\Razor\Views\Anime\FichaAnime.cshtml.g.cs
+D:\Proyecto Final\xiaelappc\obj\Debug\net5.0\Razor\Views\Login\Cuenta.cshtml.g.cs
+D:\Proyecto Final\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\_AdminPV.cshtml.g.cs
+D:\Proyecto Final\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\_FichaAnimeModal.cshtml.g.cs
+D:\Proyecto Final\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\_FichaPeliculaModal.cshtml.g.cs
