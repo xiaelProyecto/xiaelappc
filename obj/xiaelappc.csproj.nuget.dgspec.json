@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ProyectoFinal\\xiaelappc\\xiaelappc\\xiaelappc.csproj": {}
+    "C:\\Users\\xzhou\\OneDrive - Grupo CIMD\\Escritorio\\ProyectoFinal\\xiaelappc\\xiaelappc.csproj": {}
   },
   "projects": {
-    "E:\\ProyectoFinal\\xiaelappc\\xiaelappc\\xiaelappc.csproj": {
+    "C:\\Users\\xzhou\\OneDrive - Grupo CIMD\\Escritorio\\ProyectoFinal\\xiaelappc\\xiaelappc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProyectoFinal\\xiaelappc\\xiaelappc\\xiaelappc.csproj",
+        "projectUniqueName": "C:\\Users\\xzhou\\OneDrive - Grupo CIMD\\Escritorio\\ProyectoFinal\\xiaelappc\\xiaelappc.csproj",
         "projectName": "xiaelappc",
-        "projectPath": "E:\\ProyectoFinal\\xiaelappc\\xiaelappc\\xiaelappc.csproj",
-        "packagesPath": "C:\\Users\\yhael\\.nuget\\packages\\",
-        "outputPath": "E:\\ProyectoFinal\\xiaelappc\\xiaelappc\\obj\\",
+        "projectPath": "C:\\Users\\xzhou\\OneDrive - Grupo CIMD\\Escritorio\\ProyectoFinal\\xiaelappc\\xiaelappc.csproj",
+        "packagesPath": "C:\\Users\\xzhou\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xzhou\\OneDrive - Grupo CIMD\\Escritorio\\ProyectoFinal\\xiaelappc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\yhael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\xzhou\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

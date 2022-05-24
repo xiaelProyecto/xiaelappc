@@ -8,7 +8,7 @@ namespace xiaelappc.Commons
     public class Commons
     {
 
-        ////API CALLS
+        ////API CALLS TO LOCALHOST
         ////MOVIE
         //public const string _URIMOVIES_GETALLMOVIES = "https://xiaelapi.azurewebsites.net/api/Movie/GetAllMovies";
         //public const string _URIMOVIES_GETBYID = "https://xiaelapi.azurewebsites.net/api/Movie/GetMovieById/";
@@ -34,7 +34,13 @@ namespace xiaelappc.Commons
         //public const string _URIANIME_GETBYNAME = "https://xiaelapi.azurewebsites.net/api/Anime/SearchService/";
 
 
-        //API CALLS TO LOCALHOST YHAEL
+
+
+
+        //PARA XIANG
+
+
+        //API CALLS TO LOCALHOST
         //MOVIE
         public const string _URIMOVIES_GETALLMOVIES = "https://localhost:44327/api/Movie/GetAllMovies";
         public const string _URIMOVIES_GETBYID = "https://localhost:44327/api/Movie/GetMovieById/";
@@ -58,7 +64,6 @@ namespace xiaelappc.Commons
         public const string _URIANIME_GETALLANIMES = "https://localhost:44327/api/Anime/GetAllAnimes";
         public const string _URIANIME_GETANIMEBYID = "https://localhost:44327/api/Anime/GetAnimeById/";
         public const string _URIANIME_GETBYNAME = "https://localhost:44327/api/Anime/SearchService/";
-
 
     }
 }
