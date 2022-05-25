@@ -102,79 +102,55 @@ D:\Proyecto Final\xiaelappc\obj\Debug\net5.0\Razor\Views\Login\Cuenta.cshtml.g.c
 D:\Proyecto Final\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\_AdminPV.cshtml.g.cs
 D:\Proyecto Final\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\_FichaAnimeModal.cshtml.g.cs
 D:\Proyecto Final\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\_FichaPeliculaModal.cshtml.g.cs
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\Humanizer.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\System.Composition.AttributedModel.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\System.Composition.Convention.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\System.Composition.Hosting.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\System.Composition.Runtime.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\System.Composition.TypedParts.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-D:\Proyecto Final\xiaelappc\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-D:\Proyecto Final\xiaelappc\obj\Debug\net5.0\Razor\Views\Noticias\Index.cshtml.g.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\bin\Debug\net5.0\appsettings.json
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\bin\Debug\net5.0\xiaelappc.StaticWebAssets.xml
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\bin\Debug\net5.0\xiaelappc.exe
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\bin\Debug\net5.0\xiaelappc.deps.json
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\bin\Debug\net5.0\xiaelappc.runtimeconfig.json
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\bin\Debug\net5.0\xiaelappc.runtimeconfig.dev.json
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\bin\Debug\net5.0\xiaelappc.dll
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\bin\Debug\net5.0\ref\xiaelappc.dll
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\bin\Debug\net5.0\xiaelappc.pdb
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\bin\Debug\net5.0\xiaelappc.Views.dll
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\bin\Debug\net5.0\xiaelappc.Views.pdb
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\xiaelappc.csproj.AssemblyReference.cache
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\xiaelappc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\xiaelappc.AssemblyInfoInputs.cache
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\xiaelappc.AssemblyInfo.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\xiaelappc.csproj.CoreCompileInputs.cache
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\xiaelappc.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\xiaelappc.RazorAssemblyInfo.cache
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\xiaelappc.RazorAssemblyInfo.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\scopedcss\bundle\xiaelappc.styles.css
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\staticwebassets\xiaelappc.StaticWebAssets.Manifest.cache
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\xiaelappc.TagHelpers.input.cache
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\xiaelappc.TagHelpers.output.cache
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\xiaelappc.RazorCoreGenerate.cache
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\Razor\Views\Admin\FichaUsuario.cshtml.g.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\Razor\Views\Anime\FichaAnime.cshtml.g.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\Razor\Views\Anime\Index.cshtml.g.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\Razor\Views\Login\Cuenta.cshtml.g.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\Razor\Views\Movie\FichaPelicula.cshtml.g.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\Razor\Views\Movie\Index.cshtml.g.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\_AdminPV.cshtml.g.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\_FichaAnimeModal.cshtml.g.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\_FichaPeliculaModal.cshtml.g.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\xiaelappc.RazorTargetAssemblyInfo.cache
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\xiaelappc.RazorTargetAssemblyInfo.cs
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\xiaelappc.Views.pdb
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\xiaelappc.csproj.CopyComplete
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\xiaelappc.dll
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\ref\xiaelappc.dll
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\xiaelappc.pdb
+C:\Users\xzhou\OneDrive - Grupo CIMD\Escritorio\ProyectoFinal\xiaelappc\obj\Debug\net5.0\xiaelappc.genruntimeconfig.cache
