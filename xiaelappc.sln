@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xiaelappc", "xiaelappc.csproj", "{74BCE88D-901F-42EE-B838-FEE37B17CD5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74BCE88D-901F-42EE-B838-FEE37B17CD5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74BCE88D-901F-42EE-B838-FEE37B17CD5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74BCE88D-901F-42EE-B838-FEE37B17CD5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74BCE88D-901F-42EE-B838-FEE37B17CD5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1797D4F6-A81B-420B-AC0F-CC79B93DE3EA}
+	EndGlobalSection
+EndGlobal
