@@ -36,5 +36,23 @@ namespace xiaelappc.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public async Task<IActionResult> GetEvents() {
+            var lsEvents = new List<EventModel>();
+            var _db = new HttpClient();
+            var response = await _db.GetStringAsync(Commons.Commons._URIMOVIES_GETALLMOVIES);
+            if (response.Length < 0) return NotFound();
+            var model = JsonConvert.DeserializeObject<List<MovieModel>>(response);
+            if (model == null) return NotFound();
+            foreach(var m in model)
+            {
+                lsEvents.Add(new EventModel{ 
+                    Title = m.titulo,
+                    Start = m.lanzamiento,
+                    End = m.lanzamiento
+                });
+            }
+            return Ok(lsEvents.ToArray());
+        }
     }
 }

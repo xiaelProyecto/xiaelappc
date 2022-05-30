@@ -2,19 +2,17 @@
     ViewData["Title"] = "Home";
 }
 
-
-
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.0.1/fullcalendar.min.css">
 <div id="hcontslider">
     <div id="hslider">
         <div id="slider">
             <h3 id="htitulo">The NorthMan</h3>
             <p id="hdescripcion">The Northman es una película de suspense y drama histórico épico estadounidense-británica dirigida por Robert Eggers, con un guion coescrito por el poeta y novelista islandés Sjón. Con su historia ambientada a principios del siglo x en Islandia, estará protagonizada por Alexander Skarsgård como el príncipe vikingo Amleth, junto a Nicole Kidman, Anya Taylor-Joy, Björk, Ralph Ineson, Ethan Hawke y Willem Dafoe. La trama seguirá al personaje de Amleth, quien emprende una misión vengativa después del asesinato de su padre.</p>
-            <button id="hsboton" >Más Información</button>
+            <button id="hsboton">Más Información</button>
         </div>
     </div>
 </div>
-<div class="container col-md-12"> 
+<div class="container col-md-12">
     <div class="row col-md-12" id="hcardsfather">
         <div class="cards">
             <img src="https://i.ibb.co/mFRFbxd/1917.jpg" class="himgcards" />
@@ -35,9 +33,15 @@
             <a asp-area="" asp-controller="Noticias" asp-action="Index">Ver más</a>
         </div>
     </div>
+    <h2>Calendario de estrenos peliculas</h2>
+    <div class="row col-md-8 justify-content-center" id="calendario">
+        <div id="mCalendar"></div>
+    </div>
 </div>
 
 @section Scripts
 {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.0.1/fullcalendar.min.js"></script>
     <script type="text/javascript" src="~/js/Home.js"></script>
 }
