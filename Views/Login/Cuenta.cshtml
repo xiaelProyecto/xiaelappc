@@ -80,29 +80,43 @@
 
         <div id="CUAjustes">
             <h2>Ajustes De Cuenta</h2>
-            <div>
-                <label for="fnickname">Usuario:</label>
-                <input type="text" value="@Model.nickname" name="fnickname" id="CUInputAjName" required />
-                <button class="CUBtnAjustes" id="CUAJUser"><i class="bi bi-box2-heart"></i></button>
-            </div>
-
-            <div>
-                <label for="fpass">Password:</label>
-                <input type="password" value="" name="fpass" id="CUInputAjPass" required />
-                <button class="CUBtnAjustes" id="CUAJPass"><i class="bi bi-box2-heart"></i></button>
-            </div>
-
-            <div>
-                <label for="fage">Edad:</label>
-                <input type="number" value="@Model.age" name="fage" id="CUInputAjAge" required />
-                <button class="CUBtnAjustes" id="CUAAge"><i class="bi bi-box2-heart"></i></button>
-            </div>
-
-            <div>
-                <label for="fmail">Mail:</label>
-                <input type="email" value="@Model.mail" name="fmail" id="CUInputAjMail" required />
-                <button class="CUBtnAjustes" id="CUAJMail"><i class="bi bi-box2-heart"></i></button>
-            </div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="fnickname">Usuario:</label>
+                            <input type="text" value="@Model.nickname" name="fnickname" id="CUInputAjName" required  style="width:330px;"/>
+                       </td>
+                        <td><button class="CUBtnAjustes" id="CUAJUser"><i class="bi bi-box2-heart"></i></button></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="fpass">Pass:</label>
+                            <input type="password" value="" name="fpass" id="CUInputAjPass" required  style="width:350px;"/>
+                           
+                        </td>
+                        <td><button class="CUBtnAjustes" id="CUAJPass"><i class="bi bi-box2-heart"></i></button></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="fage">Edad:</label>
+                            <input type="number" value="@Model.age" name="fage" id="CUInputAjAge" required style="width:350px;" />
+                            
+                        </td>
+                        <td><button class="CUBtnAjustes" id="CUAAge"><i class="bi bi-box2-heart"></i></button></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="fmail">Email:</label>
+                            <input type="email" value="@Model.mail" name="fmail" id="CUInputAjMail" required  style="width:350px;"/>
+                           
+                        </td>
+                        <td>
+                            <button class="CUBtnAjustes" id="CUAJMail"><i class="bi bi-box2-heart"></i></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
         <div id="CUAadmin"></div>
     </div>

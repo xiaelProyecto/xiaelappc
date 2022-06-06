@@ -1,4 +1,4 @@
-﻿.privacy-cover {
+﻿.privacy1-cover {
     width: 100%;
     height: 500px;
     position: relative;
@@ -8,15 +8,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    
 }
-.privacy-h1{
-    
-    font-family: 'Times New Roman' ;
+
+.privacy1-h1 {
+    font-family: 'Times New Roman';
     font-size: 4em;
 }
 
-.privacy-p {
+.privacy1-p {
     font-size: 2em;
     font-family: 'Times New Roman';
     font-weight: bold;

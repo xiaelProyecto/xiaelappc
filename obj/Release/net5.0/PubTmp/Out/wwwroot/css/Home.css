@@ -80,8 +80,6 @@
 }
 
 /*responsive*/
-
-
 @media(max-width:1024px) {
     #hcontslider{
         display: none;

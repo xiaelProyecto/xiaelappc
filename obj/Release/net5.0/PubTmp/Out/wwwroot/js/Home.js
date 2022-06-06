@@ -1,26 +1,41 @@
-﻿$(document).ready(() => {
-    //const imagenes = [];
-    //var indiceImagenes = 0;
-    //const tiempo = 6000
-    //imagenes[0] = "https://i.ibb.co/Hp3cMfv/thebatman.jpg";
-    //imagenes[1] = "https://i.ibb.co/5B6W5Y0/4.png";
-    //imagenes[2] = "https://i.ibb.co/qD3nwtY/thenorhman.jpg";
-    //imagenes[3] = "https://i.ibb.co/h9mjBJm/3.jpg";
-    //function cambiarImagenes() {
-    //    $("#slider").attr("src", imagenes[indiceImagenes]);
-    //    if (indiceImagenes < 2) {
-    //        indiceImagenes++;
-    //    } else {
-    //        indiceImagenes = 0;
-    //    }
-    //}
-    //setInterval(cambiarImagenes, tiempo)
-   
+﻿$(document).ready((e) => {
+    generateCalendar();
 });
 $("#hsboton").on('click', (e) => {
     const ID = "6272c98f960692748a582e9c";
     window.location.replace(window.location.href + "Movie/FichaPelicula/" + ID);
 });
-
+function generateCalendar() {
+    $("#mCalendar").fullCalendar('destroy');
+    $("#mCalendar").fullCalendar({
+        header: {
+            left: 'title',
+            center: '',
+            right: 'prev,next today'
+        },
+        firstDay: 1,
+        events: function (start, end, timezone, callback) {
+            $.ajax({
+                url: '/Home/GetEvents',
+                type: "GET",
+                success: function (result) {
+                    var events = [];
+                  
+                    $.each(result, function (i, data) {
+                        console.log(data);
+                        events.push(
+                            {
+                                title: data.title,
+                                start: data.start,
+                                end :data.end 
+                            });
+                    });
+                    callback(events);
+                }
+            });
+        },
+    });
+    $("#mCalendar").fullCalendar('render');
+}
 
 
